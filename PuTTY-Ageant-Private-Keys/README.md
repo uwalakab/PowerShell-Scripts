@@ -5,5 +5,7 @@ If the passphrase is different on each private key (.PPK file) you will need to 
 
 If the passphrase is same for each private key, then you will only need to enter it once, _(security vs. convenience?)_
 
-I also suggest on your .PPK files that you apply a password on them and also apply them to the specific session Auth details stored in PuTTy.
+I also suggest on your .PPK files that for security you apply a password on them and also apply them to the **specific session Auth details** stored in PuTTy.
 [See PuTTy documentation here](https://documentation.help/PuTTY/config-ssh-privkey.html#S4.22.8)
+
+This may help avoid encountering the type of problem mentioned here [in the PuTTy documentation here](https://documentation.help/PuTTY/errors-toomanyauth.html)
