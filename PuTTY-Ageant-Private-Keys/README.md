@@ -8,4 +8,4 @@ _(You can weigh up security vs. convenience here. For a production system it is 
 
 On your .PPK files which have a passphrase applied, it is suggested that within PuTTy you set the **"Private key file for authentication"** file path for the specific session that will use the given private key. For further details on this [see the PuTTy documentation here.](https://documentation.help/PuTTY/config-ssh-privkey.html#S4.22.8)
 
-Doing the above appears to help avoid the problem mentioned [here in the PuTTy documentation.](https://documentation.help/PuTTY/errors-toomanyauth.html)
+Doing the above appears to help avoid the problem mentioned [here in the PuTTy documentation](https://documentation.help/PuTTY/errors-toomanyauth.html) where the message _‘Server sent disconnect message type 2 (protocol error): "Too many authentication failures for root"’_ appears when opening a session.
