@@ -4,11 +4,10 @@ If you have a suite of private keys in .PPK files for Putty's Pageant on Windows
 If the passphrase is different on each private key .PPK file, then you will need to enter it for each one. 
 
 If the passphrase is the same for each private key .PPK file, then you will only need to enter it once.
-You can weigh up security vs. convenience here. For a production system it is not encouraged to use the same passphrase for all your private keys. If you are pushed to do so then perhaps:
+You can weigh up security vs. convenience here. For a production system it is not encouraged to use the same passphrase for all your private keys. If you are pushed to do so then perhaps make the passphrase complex:
 
-- Make the passphrase complex.
-- Using an alphanumeric password with symbols.
-- Passphrase should have at least 24 characters.
+- Use an alphanumeric password including symbols.
+- Passphrase should be at least 24 characters in length.
 
 On your .PPK files which have a passphrase applied, it is suggested that within PuTTy you set the **"Private key file for authentication"** file path for the specific session that will use the given private key. For further details on this [see the PuTTy documentation here.](https://documentation.help/PuTTY/config-ssh-privkey.html#S4.22.8)
 
