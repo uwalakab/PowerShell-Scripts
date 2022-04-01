@@ -1,6 +1,6 @@
 If you have a suite of private keys in .PPK files for Putty's Pageant on Windows, use this script which passes a list of the .PPK files in a given directory to the "pageant.exe" executable file. After running this script and the pageant has launched, when you right-click on the "pageant" Systray icon and select "View Keys" you should see all the added keys.
 
-_(Refer to [this link from Microsoft regarding execution policies for PowerShell scripts](https:/go.microsoft.com/fwlink/?LinkID=135170))_
+_(Refer to [this link from Microsoft regarding execution policies for PowerShell scripts](https://go.microsoft.com/fwlink/?LinkID=135170))_
 
 ## Note on when Pageant is first launched
 If the passphrase is different on each private key .PPK file, then you will need to enter it for each one. 
