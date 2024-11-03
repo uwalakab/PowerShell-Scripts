@@ -7,7 +7,7 @@ If the passphrase is different on each private key .PPK file, then you will need
 
 If the passphrase is the same for each private key .PPK file, then you will only need to enter it once.
 You can weigh up security vs. convenience here. For a production system it is not encouraged to use the same passphrase for all your private keys.
-If you find you need to do this, then it is suggested to make the passphrase complex. For example, create a passphrase of 24 characters or more consisting of numbers, symbols, upper-case and lower-case letters.
+If you find you need to do this, then it is suggested to make the passphrase complex. For example, create an alphanumeric passphrase using symbols, upper and lower case with 24 characters or more.
 
 On your .PPK files that have a passphrase applied, within PuTTy you can set the **"Private key file for authentication"** file path for the specific session that will use the given private key. For further details on this [see the PuTTy documentation here.](https://documentation.help/PuTTY/config-ssh-privkey.html#S4.22.8)
 
