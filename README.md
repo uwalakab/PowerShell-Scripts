@@ -6,3 +6,5 @@ My bucket of PowerShell scripts. Slowly collecting a store of commands and tips 
 [PuTTY-Ageant-Private-Keys](PuTTY-Ageant-Private-Keys)
 
 [Unpin-Apps-from-Taskbar](Unpin-Apps-from-Taskbar)
+
+[Set-PDF-Icon-for-Chrome](Set-PDF-Icon-for-Chrome)
