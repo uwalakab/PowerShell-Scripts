@@ -1,4 +1,5 @@
-## Run the script as Administrator, or (less secure) set the following Reg Key with  the following Windows advanced permissions for the current user [Set Value, Create Subkey]
+## Run the script as Administrator, or set the following Reg Key with  the following Windows advanced permissions for the current user [Set Value, Create Subkey]
+## On a personal system you can assign permissions to the single Current User. This is deemed more secure as the script can then run the Current User context and the user will have the one part of the registry that it needs access to.
 
 New-ItemProperty -Path HKLM:\SOFTWARE\Classes\ChromePDF\DefaultIcon -Name "(default)" -PropertyType "String" -Value '"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",11' -Force
 
