@@ -1,5 +1,5 @@
 # PowerShell-Scripts
-My bucket of PowerShell scripts. Slowly collecting a store of commands and tips I find useful.
+My silo of PowerShell scripts. Slowly collecting a store of commands and tips I find useful.
 
 [Call-SHChangeNotify-to-Refresh-icons](Call-SHChangeNotify-to-Refresh-icons)
 
